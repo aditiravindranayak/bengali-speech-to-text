@@ -17,7 +17,7 @@ In today's digital age, speech recognition technology has become an integral par
 
 ## Installation
 
-1. Make sure you have Python installed on your system. If not, download and install it from the official [Python website](https://www.python.org/).
+1. Make sure you have Google Colab installed on your system. If not, download and install it from the official [Google Colab](https://colab.research.google.com/).
 
 2. Install the required dependencies by running the following command:
 
