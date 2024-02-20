@@ -8,12 +8,12 @@ This project demonstrates how to use the SpeechRecognition library in Python to 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+- [Dataset](#dataset)
+- [Contributors](#contributors)
 
 ## Introduction
 
-In today's digital age, speech recognition technology has become an integral part of various applications, ranging from voice assistants to transcription services. This project showcases a simple implementation of speech recognition using the SpeechRecognition library in Python. The program captures audio input from the microphone, sends it to Google's speech recognition API, and converts it into text.
+In today's digital age, speech recognition technology has become an integral part of various applications, ranging from voice assistants to transcription services. This project contributes to the larger goal of democratizing speech technology for regional languages, empowering non-English-speaking people, and making information more accessible to a broader audience. The program captures audio input from the microphone, sends it to Google's speech recognition API, and converts it into text.
 
 ## Installation
 
@@ -27,25 +27,20 @@ In today's digital age, speech recognition technology has become an integral par
 
 ## Usage
 
-1. Run the `main.py` script using the following command:
+To run the project, follow the steps below:
 
-   ```
-   python main.py
-   ```
-
-2. The program will start listening to your microphone input. Speak a sentence or phrase clearly into the microphone.
-
-3. After you stop speaking, the program will process the audio and attempt to recognize the speech. The recognized text will be displayed on the console.
+1. Clone the project repository.
+2. Download and extract the audio files from the dataset.
+3. Open the "IAIML.ipynb" file in Jupyter Notebook.
+4. Run the code cells in the notebook.
 
 ## Dependencies
 
 - Python 3.x
 - SpeechRecognition library
 
-## Contributing
+## Dataset
+The dataset used for this project is the Bengali ASR training dataset: https://openslr.org/53/ . We used a portion of bengali audio files including conversations, idioms, and phrases.
 
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to create a pull request or submit an issue in the [GitHub repository](https://github.com/aditiravindranayak/speech-to-text).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per your needs.
+## Contributors
+The project was developed by a team of students from Symbiosis Institute of Technology, Pune
